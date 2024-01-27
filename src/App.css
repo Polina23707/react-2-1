@@ -4,29 +4,36 @@
   box-sizing: border-box;
 }
 
-.toolbar {
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-.project__list {
+.App {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .portfolio {
+  box-sizing: border-box;
+  display: block;
   width: 900px;
-  height: 1900px;
+}
+
+.toolbar {
   display: flex;
-  justify-content: center;
-  align-content: flex-start;
+  margin: 20px 15px;
+}
+
+.filter {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.project__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 1800px;
 }
 
 .project {
-  display: flex;
+  display: block;
+  width: 300px;
   padding: 15px;
-  /* margin-top: 15px; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }

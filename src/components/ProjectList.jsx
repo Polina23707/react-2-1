@@ -9,10 +9,9 @@ const ProjectList= (projects) => {
   return(
   <div className="project__list">
     {selected.map((project) => 
-        <Project project={project}/>
+      <Project project={project}/>
     )}
   </div>
-  
   )
 }
 
